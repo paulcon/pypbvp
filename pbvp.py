@@ -7,7 +7,7 @@ class ParameterizedBoundaryValueProblem():
     '''
     A class for the following parameterized boundary value problem:
     
-    ( kappa(t,x) u'(t,x) )' = 1, u(-1,x) = 0, u'(1,x) = 1, t \in [-1, 1],
+    ( kappa(t,x) u'(t,x) )' = 1, u(-1,x) = 0, u'(1,x) = 0, t \in [-1, 1],
     
     where x represents the vector of parameters that affect the variable
     coefficient function kappa(t,x). 
